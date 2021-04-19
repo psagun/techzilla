@@ -1,4 +1,4 @@
-import logo from './assets/images/logo1.png';
+import logo from './components/assets/images/logo1.png';
 import './App.css';
 
 const App = () => {
@@ -13,9 +13,5 @@ const App = () => {
 
   );
 }
-const homePageData = {
-  overlapGroup7: "ellipse-10.svg",
-  eshop: "eshop.svg",
-  title: "Eshop",}
 
 export default App;
