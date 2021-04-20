@@ -1,16 +1,17 @@
-import logo from './components/assets/images/logo1.png';
+//import logo from './components/assets/images/logo1.png';
 import './App.css';
+import Home from './components/homepage/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-const App = () => {
-
-  return(
-    <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <h1>TECHZILLA.LLC</h1>
-    </header>
-  </div>
-
+function App() {
+  return (
+    <>
+      <Router>
+        <Switch>
+          <Route path='/' exact component={Home} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
