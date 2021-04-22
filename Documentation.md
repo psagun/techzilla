@@ -11,10 +11,11 @@
 - App built using:
 - Created with npm init react-app techZilla-->
 
+- npm install
 - npm start
-- npm run build
+<!-- - npm run build
 - npm test
-- npm run eject
+- npm run eject-->
 
 ### Git Commands:
 - git branch
