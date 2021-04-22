@@ -19,7 +19,6 @@
 
 ### Git Commands:
 - git branch
-- git stash
 - git checkout -b BRANCH_NAME
 - git status
 - git add .
