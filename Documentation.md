@@ -15,3 +15,12 @@
 - npm run build
 - npm test
 - npm run eject
+
+### Git Commands:
+- git branch
+- git stash
+- git checkout -b BRANCH_NAME
+- git status
+- git add .
+- git commit -m "ADD A COMMIT MESSAGE HERE DESCRIBING YOUR CHANGES"
+- git push origin BRANCH_NAME
