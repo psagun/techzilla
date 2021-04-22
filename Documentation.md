@@ -17,6 +17,12 @@
 - npm test
 - npm run eject-->
 
+### To push a new changes: 
+- git add .
+- git commit -m "ADD A COMMIT MESSAGE HERE DESCRIBING YOUR CHANGES"
+- git push origin BRANCH_NAME
+
+
 ### Git Commands:
 - git branch
 - git checkout -b BRANCH_NAME
@@ -25,8 +31,3 @@
 - git commit -m "ADD A COMMIT MESSAGE HERE DESCRIBING YOUR CHANGES"
 - git push origin BRANCH_NAME
 
-To push a new changes: ``` 
-git add .
-git commit -m "ADD A COMMIT MESSAGE HERE DESCRIBING YOUR CHANGES"
-git push origin BRANCH_NAME
-```
