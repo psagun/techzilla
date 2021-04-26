@@ -8,7 +8,8 @@
  
 ## Running the Project
 ### Requirements
-Download and Install recommended LTS version of [Nodejs](https://nodejs.org/en/) 
+- Download and Install recommended LTS version of [Nodejs](https://nodejs.org/en/) 
+ - `npm install`
 
 ### Start
 Run `npm start`
