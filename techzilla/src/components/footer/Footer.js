@@ -6,9 +6,9 @@ function Footer(){
     return (
         <div className='footer-container'>
             <section className='footer-start'>
-                <p className='footer-title'>
+{/*                 <p className='footer-title'>
                     techZilla eshop
-                </p>
+                </p> */}
             </section>
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
