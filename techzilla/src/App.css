@@ -6,7 +6,7 @@
 }
 
 .home,
-.services{
+.products{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -14,12 +14,12 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('/src/components/assets/images/logo1.png');
+.products {
+  background-image: url("./components/assets/images/background1.jpg"); 
   background-position: center;
-  background-size: cover;
+  background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 100px;
 }
 
@@ -105,4 +105,3 @@
 .forgot-password a {
   color: #dc3545;
 }
-
