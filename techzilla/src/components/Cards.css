@@ -1,19 +1,24 @@
 .cards {
   padding: 4rem;
-  background:rgb(208,240,192);
+  background: #fff;
 }
 
 h1 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
 .cards__container {
-  background: #fff;
   display: flex;
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -27,6 +32,7 @@ h1 {
 }
 
 .cards__item {
+  background: #FAF9F4;
   display: flex;
   flex: 1;
   margin: 0 1rem;
@@ -69,6 +75,7 @@ h1 {
   color: #fff;
   background-color: #1f98f4;
   box-sizing: border-box;
+  border-radius: 12px;
 }
 
 .cards__item__img {
