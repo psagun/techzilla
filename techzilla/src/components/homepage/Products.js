@@ -44,7 +44,7 @@ function Products() {
               src='images/img-2.jpg'
               text='Explore our latest Laptops with intel core processor i15'
               label='Shop Now'
-              path='/products'
+              path='/carts'
             />
           </ul>
         </div>
