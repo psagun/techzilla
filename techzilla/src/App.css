@@ -78,9 +78,9 @@
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: #e72d2d;
   box-sizing: border-box;
-  border-radius: 12px;
+  border-radius: 3px;
 }
 
 .products__item__img {
@@ -103,10 +103,16 @@
 }
 
 .products__item__info {
-  padding: 20px 30px 30px;
+  padding: 10px 30px 30px;
 }
 
 .products__item__text {
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.products__item__button {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;

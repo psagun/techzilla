@@ -107,6 +107,17 @@ h3 {
   line-height: 24px;
 }
 
+.cards__item__info1 {
+  padding: 20px 30px 30px;
+  align-items: center;
+}
+
+.cards__item__button {
+  background-color: #1f98f4;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;

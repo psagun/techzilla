@@ -35,19 +35,20 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/fav1.jpg'
-              text='HP 23.8" All-in-One Desktop Computer Full HD Touch Display'
+              text='HP 23.8" All-in-One Desktop Computer Full HD Touch Display $699.99'
               label='Shop Now'
               path='/products'
             />
             <CardItem
               src='images/mac2.jfif'
-              text='Explore new accessories and hardware products'
+              text='Apple M1 chip with 8‑core CPU, 7‑core GPU, and 16‑core Neural Engine
+              8GB memory $999.99'
               label='Shop Now'
               path='/products'
             />
             <CardItem
               src='images/fav3.jpg'
-              text='Lenovo Thinkbook 14s Premium Business Ultrabook,SD'
+              text='Lenovo Thinkbook 14s Premium Business Ultrabook,SD $1099.99'
               label='Shop Now'
               path='/products'
             />

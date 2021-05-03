@@ -10,41 +10,42 @@ function Products() {
           <ul className='products__items'>
             <ProductItem
               src='images/img-1.jpg'
+              src='images/fav3.jpg'
               text='Explore our latest MacBook with different color and sizes'
-              label='Shop Now'
-              path='/products'
+              label='$1299.99'
+              button= 'Add to cart'
             />
             <ProductItem
               src='images/img-2.jpg'
               text='Explore our latest Windows PCs. with different color and sizes'
-              label='Shop Now'
-              path='/products'
+              label='$699.99'
+              button= 'Add to cart'
             />
             <ProductItem
-              src='images/img-1.jpg'
+              src='images/fav3.jpg'
               text='Explore our latest HP Laptops with different color and sizes'
-              label='Shop Now'
-              path='/products'
+              label='$899.99'
+              button= 'Add to cart'
             />
           </ul>
           <ul className='products__items'>
             <ProductItem
-              src='images/img-2.jpg'
+              src='images/fav3.jpg'
               text='Explore our latest Surface Pro with different color and sizes'
-              label='Shop Now'
-              path='/products'
+              label='$899.99'
+              button= 'Add to carts'
             />
             <ProductItem
               src='images/img-1.jpg'
               text='Explore new accessories and hardware products'
-              label='Shop Now'
-              path='/products'
+              label='$899.99'
+              button= 'Add to cart'
             />
             <ProductItem
-              src='images/img-2.jpg'
+              src='images/fav3.jpg'
               text='Explore our latest Laptops with intel core processor i15'
-              label='Shop Now'
-              path='/carts'
+              label='$899.99'
+              button= 'Add to carts'
             />
           </ul>
         </div>
