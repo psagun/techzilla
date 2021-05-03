@@ -9,7 +9,6 @@ function Products() {
         <div className='products__wrapper'>
           <ul className='products__items'>
             <ProductItem
-              src='images/img-1.jpg'
               src='images/fav3.jpg'
               text='Explore our latest MacBook with different color and sizes'
               label='$1299.99'
