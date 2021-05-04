@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 
 const Button = styled.button`
     position: absolute;
-    background-color: black;
+    background-color: #fcbc49;
     color: white;
-    border-radius: 5px;
+    border: #fba01d;
+    border-radius: 2px;
     outline: 0;
     cursor: pointer;
     box-shadow: 0px 2px 2px lightgray;
@@ -34,7 +35,12 @@ function ProductItem(props) {
           </figure>
           <div className='products__item__info'>
             <h5 className='products__item__text'>{props.text}</h5>
-            <div className='products__item__button'><Button onClick={clickMe}>{props.button}</Button></div></div>
+            </div>
+            <Link className='products__item__buttonlink' to={props.path1}>
+            <div className='products__item__button'>
+            <div className='products__item__button'><Button onClick={clickMe}>{props.button}</Button></div>
+            </div>
+            </Link>
         </Link>
       </li>
     </>
