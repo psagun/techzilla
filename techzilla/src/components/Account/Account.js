@@ -1,12 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import AccountItem from './AccountItem';
 import './Account.css';
-import OrderHistory from './OrderHistory';
-import PaymentMethods from './PaymentMethods';
-import UserProfile from './UserProfile';
-import Footer from '../footer/Footer';
 
 function Account() {
   return(
@@ -26,7 +21,7 @@ function Account() {
             <div className='forum'>
               <h5><br/>View Forum Posts</h5>
               <Link className='forum-link'to='/forumposts'>
-                <img classname='forum-picture' src ='images/logo1.png' alt =''/>
+                <img classname='forum-picture' src ='logo1.png' alt =''/>
               </Link>
             </div>
           </div>
