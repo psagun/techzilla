@@ -1,0 +1,93 @@
+.account {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-wrapper {
+    display: flex;
+}
+
+.account-container {
+    background: linear-gradient(
+        to right bottom,
+        rgba(153, 224, 236, 0.7),
+        rgb(255, 255, 255, 0.3));   
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    min-height: 40vh;
+    max-width: 100vw;
+    padding: 50px;
+}
+
+.account-items {    
+    list-style: none;
+}
+
+.account-item {  
+    padding: 20px;
+}
+
+.account-item-link {
+    color:black;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: row;
+    width: 102%;
+    border-radius: 1rem;
+    border-width: 1px;  
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    padding: 2px;
+}
+
+.account-item-link:hover {
+    transition: 0.2s ease-out;
+    text-decoration: none;
+}
+
+
+.account-item-icon {
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 1rem;
+}
+
+.account-item-title {
+    font-size: x-large;
+    padding-top: 10px;
+}
+
+.account-item-description {
+    font-size: medium;
+    font-style: italic;
+}
+
+.dashboard {
+    border-style: solid;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-width: 2px;  
+    padding: 30px;
+    padding-left: 15px;
+}
+
+.forum {
+    margin-top: 50px;
+}
+.forum-link {
+    display: flex;
+    height: 150px;
+    width: 150px;
+}
+
+img {
+    border-radius: 2rem;
+}
+
+
