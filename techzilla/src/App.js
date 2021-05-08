@@ -3,7 +3,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import Home from './components/homepage/Home';
 import Products from './components/homepage/Products';
+import Home from './components/homepage/Home'
 import Products from './components/homepage/Products'
+import Details from './components/homepage/Details'
 import Navbar from './components/Navbar'
 import Login from '../src/components/LoginSignUpPage/login.component'
 import SignUp from '../src/components/LoginSignUpPage/signup.component'
@@ -23,6 +25,7 @@ function App() {
           <Route path='/login' exact component={Login} />
           <Route path='/products' component={Products} />
             <Route path='/products' component={Products} exact />
+            <Route path='/product/:id' exact component={Details} />
 
         </Switch>
         </div>
