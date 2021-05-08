@@ -11,6 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 .login-sign-up-nav {
   justify-content: center;
   flex-direction: row;
@@ -93,4 +94,6 @@ code {
 .forgot-password a {
   color: #dc3545;
 }
+
+
 
