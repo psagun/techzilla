@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CartIcon from './assets/images/cart1.png'
+import CartIcon from './assets/images/cart.png'
 import { Link } from 'react-router-dom'
 import './Navbar.css';
 import {DataContext} from './Context'

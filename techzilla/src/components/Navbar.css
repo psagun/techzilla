@@ -1,6 +1,6 @@
 .navbar {
     background: #000000;
-    height: 80px;
+    height: 68px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
   .navbar-container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 68px;
   }
   
   .container {

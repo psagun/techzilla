@@ -47,7 +47,8 @@
     margin: 15px 0;
 }
 .box .cart{
-    background: #333;
+    background: rgb(21, 233, 21);
+    border-radius: 10px;
     color: white;
     text-decoration: none;
     padding: 10px 25px;

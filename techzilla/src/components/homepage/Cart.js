@@ -3,6 +3,7 @@ import { DataContext } from '../Context'
 import { Link } from 'react-router-dom'
 import '../details/Details.css'
 import '../cart/Cart.css'
+import Delete from '../assets/images/del.png'
 
 export class Cart extends Component {
     static contextType = DataContext;
@@ -36,7 +37,7 @@ export class Cart extends Component {
                                             <button className="count" onClick={() => increase(item._id)}> + </button>
                                         </div>
                                     </div>
-                                    <div className="delete" onClick={() => removeProduct(item._id)}>[X]</div>
+                                    <div className="delete" onClick={() => removeProduct(item._id)}>X</div>
                                 </div>
                             </div>
                         ))
