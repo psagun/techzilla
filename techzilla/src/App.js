@@ -6,16 +6,22 @@ import Products from './components/homepage/Products';
 import Home from './components/homepage/Home'
 import Products from './components/homepage/Products'
 import Details from './components/homepage/Details'
+import Cart from './components/homepage/Cart'
 import Navbar from './components/Navbar'
 import Login from '../src/components/LoginSignUpPage/login.component'
 import SignUp from '../src/components/LoginSignUpPage/signup.component'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { DataProvider } from './components/Context'
 
 function App() {
   return (
     
     
+
+    <DataProvider>
+
+      <div className="App">
         <Router>
         <div className="App">
         <Navbar/>
@@ -26,6 +32,7 @@ function App() {
           <Route path='/products' component={Products} />
             <Route path='/products' component={Products} exact />
             <Route path='/product/:id' exact component={Details} />
+            <Route path='/cart' component={Cart} />
 
         </Switch>
         </div>
