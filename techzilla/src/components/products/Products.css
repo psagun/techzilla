@@ -1,11 +1,14 @@
-#product{
+.product{
+  background: white;
+  background-origin: padding-box;
+  padding-left:325px;
+  padding-right: 10px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
 }
 .card{
-  background: rgb(255, 253, 231);
+  background: whitesmoke;
   min-width: 300px;
   min-height: 400px;
   border-radius: 12px;
@@ -13,7 +16,7 @@
   overflow: hidden;
   padding: 10px;
   box-shadow: 2px 8px 20px #ddd;
-  margin: 10px;
+  margin: 6px;
   transition: 0.5s linear;
 }
 .card:hover{
@@ -113,4 +116,6 @@
 }
 .card button:hover{
   color: #74b72e;
+  transform: scale(1.1);
+
 }

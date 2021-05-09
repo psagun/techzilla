@@ -11,7 +11,7 @@ export class Products extends Component {
     render() {
         const { products, addCart } = this.context;
         return (
-            <div id="product">
+            <div className="product">
                 {
                     products.map(product => (
                         <div className="card" key={product._id}>
