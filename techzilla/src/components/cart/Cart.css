@@ -36,18 +36,21 @@
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 .total a{
     text-decoration: none;
     background: rgb(38, 197, 65);
-    color: white;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 10px 25px;
 }
 .total h3{
-    background: rgb(38, 197, 65);
-    margin-right: 240px;
+    border-radius: 5px;
+    background: rgb(248, 49, 35);
+    margin-right: -20px;
     color: rgb(255, 255, 255);
+    text-transform: uppercase;
 }
