@@ -15,7 +15,13 @@ export class Cart extends Component {
     render() {
         const { cart, increase, reduction, removeProduct, total } = this.context;
         if (cart.length === 0) {
-            return <h2 style={{ textAlign: "center" }}>No items added</h2>
+            return <h2 style={{ textAlign: "center" }}>No items added.
+            <Link to="/Products"> Browse our Items here</Link>
+                <Link
+                    to='/Products'>
+                    <img src={Delete} alt="" width="28" />
+                </Link>
+            </h2>
         } else {
             return (
                 <>
