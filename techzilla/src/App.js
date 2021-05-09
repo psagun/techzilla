@@ -1,31 +1,36 @@
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import Home from './components/homepage/Home';
-import Products from './components/homepage/Products';
+import Home from './components/homepage/Home'
+import Products from './components/homepage/Products'
+import Details from './components/homepage/Details'
+import Cart from './components/homepage/Cart'
 import Navbar from './components/Navbar'
 import Login from '../src/components/LoginSignUpPage/login.component'
 import SignUp from '../src/components/LoginSignUpPage/signup.component'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { DataProvider } from './components/Context'
 
 function App() {
   return (
-    
-    
-        <Router>
-        <div className="App">
-        <Navbar/>
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/signup' exact component={SignUp} />
-          <Route path='/login' exact component={Login} />
-          <Route path='/products' component={Products} />
 
-        </Switch>
-        </div>
-      </Router>
-     
-    
+    <DataProvider>
+
+      <div className="App">
+        <Router>
+          <Navbar />
+          <Switch>
+            <Route path='/' exact component={Home} />
+            <Route path='/signup' exact component={SignUp} />
+            <Route path='/login' exact component={Login} />
+            <Route path='/products' component={Products} exact />
+            <Route path='/product/:id' exact component={Details} />
+            <Route path='/cart' component={Cart} />
+          </Switch>
+        </Router>
+      </div>
+    </DataProvider>
+
   );
 }
 
