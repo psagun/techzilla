@@ -8,14 +8,15 @@ import Login from '../src/components/LoginSignUpPage/login.component'
 import SignUp from '../src/components/LoginSignUpPage/signup.component'
 import Account from '../src/components/Account/Account'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Products from './components/homepage/Products';
 import Products from './components/homepage/Products'
 import Details from './components/homepage/Details'
 import Cart from './components/homepage/Cart'
 import UserProfile from './components/Account/UserProfile';
 import OrderHistory from './components/Account/OrderHistory';
 import PaymentMethods from './components/Account/PaymentMethods';
+import Checkout from './components/checkout/Checkout'
 import { DataProvider } from './components/Context'
+
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
             <Route path='/Account/UserProfile' exact component={UserProfile} />
             <Route path='/Account/OrderHistory' exact component={OrderHistory} />
             <Route path='/Account/PaymentMethods' exact component={PaymentMethods} />
+            <Route path='/checkout/Checkout' exact component={Checkout} />
           </Switch>
         </Router>
       </div>
