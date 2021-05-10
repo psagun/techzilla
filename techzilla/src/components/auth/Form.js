@@ -1,8 +1,12 @@
 import React, { useState, useReducer } from "react";
+import SignUp from "./SignUp";
+import SignIn from "./SignIn";
 import { Auth } from "aws-amplify";
 
 const initialFormState = {
 	username: "",
+	// fname: "",
+	// lname: "",
 	password: "",
 	email: "",
 	confirmationCode: "",
@@ -50,74 +54,8 @@ const signIn = async ({ username, password }) => {
 		console.log("sign in success!");
 	} catch (err) {
 		console.log("error signing up..", err);
+		alert("Incorrect username or password");
 	}
-};
-
-const SignUp = (props) => {
-	return (
-		<div style={styles.container}>
-			<input
-				name="username"
-				onChange={(e) => {
-					e.persist();
-					props.updateFormState(e);
-				}}
-				style={styles.input}
-				placeholder="username"
-			/>
-			<input
-				type="password"
-				name="password"
-				onChange={(e) => {
-					e.persist();
-					props.updateFormState(e);
-				}}
-				style={styles.input}
-				placeholder="password"
-			/>
-			<input
-				name="email"
-				onChange={(e) => {
-					e.persist();
-					props.updateFormState(e);
-				}}
-				style={styles.input}
-				placeholder="email"
-			/>
-			<button onClick={props.signUp} style={styles.button}>
-				Sign Up
-			</button>
-		</div>
-	);
-};
-
-const SignIn = (props) => {
-	return (
-		<div style={styles.container}>
-			<input
-				name="username"
-				onChange={(e) => {
-					e.persist();
-					props.updateFormState(e);
-				}}
-				style={styles.input}
-				placeholder="username"
-			/>
-			<input
-				type="password"
-				name="password"
-				onChange={(e) => {
-					e.persist();
-					props.updateFormState(e);
-				}}
-				style={styles.input}
-				placeholder="password"
-			/>
-			<button style={styles.button} onClick={props.signIn}>
-				Sign In
-			</button>
-		</div>
-	);
 };
 
 const ConfirmSignUp = (props) => {
