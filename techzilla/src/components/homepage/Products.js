@@ -1,6 +1,8 @@
 import React from 'react';
 import '../products/Products.css';
 import ProductItem from '../products/ProductItem';
+import Fillter from '../filter/Filter'
+
 
  function Products() {
   /* const [products] = useState([
@@ -13,7 +15,10 @@ import ProductItem from '../products/ProductItem';
   ]); */
 
   return (
+    <div>
+      
     <div className='products'>
+    <Fillter/>
       <div className='products__container'>
         <div className='products__wrapper'>
           <ul className='products__items'>
@@ -70,6 +75,8 @@ import ProductItem from '../products/ProductItem';
           </ul>
         </div>
       </div>
+    </div>
+    
     </div>
   );
 }
