@@ -9,7 +9,7 @@ function HeroSection() {
       <h1>Welcome to techZilla</h1>
       <p>Your trusted online Computer World</p>
           <div className="bar">
-       <input type='text' placeholder="search"></input>
+       
           </div>
     </div>
   );

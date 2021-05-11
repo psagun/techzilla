@@ -5,6 +5,10 @@ import './Filter.css';
 function Fillter() {
   return (
     <div className="row1">
+       <form className="form2" >
+        <input className="bar" type='text' placeholder="search..."></input>
+        <button  className="btn" type="button">Go</button>
+        </form>
            <div className="row1">
 
              <form className="form1" >
