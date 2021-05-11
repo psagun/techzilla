@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { DataContext } from '../Context'
 import '../products/Products.css';
-import Filter from '../searchfilter/Filter';
+import Fillter from '../filter/Filter.js';
 // import ProductItem from '../products/ProductItem';
 
 export class Products extends Component {
@@ -12,9 +12,13 @@ export class Products extends Component {
     render() {
         const { products, addCart } = this.context;
         return (
+          
             <div>
-                <Filter/>
+              <div><Fillter/></div>
+               
             <div className="product">
+            
+                
                 {
                     products.map(product => (
                         <div className="card" key={product._id}>
@@ -28,6 +32,7 @@ export class Products extends Component {
                                 </figure>
                                 {/* <img src={product.src} alt="" /> */}
                             </Link>
+                             
                             <div className="content">
                                 <h3>
                                     <Link to={`/product/${product._id}`}>{product.title}</Link>
@@ -36,10 +41,14 @@ export class Products extends Component {
                                 <p>{product.description}</p>
                                 <button onClick={() => addCart(product._id)}>Add to cart</button>
                             </div>
+                            
                         </div>
                     ))
+                    
                 }
+                
             </div>
+            
         </div>
         )
     }
