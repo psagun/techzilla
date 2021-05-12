@@ -8,6 +8,7 @@ function HeroSection() {
         <video src='video-2.mp4' autoPlay loop muted />
       <h1>Welcome to techZilla</h1>
       <p>Your trusted online Computer World</p>
+       <input type='text' placeholder="search"></input>
     </div>
   );
 }
