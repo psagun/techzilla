@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-techzilla-dev-75130-authRole",
+      "UnauthRoleArn": "arn:aws:iam::334919003911:role/amplify-techzilla-dev-75130-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::334919003911:role/amplify-techzilla-dev-75130-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-techzilla-dev-75130-deployment",
+      "UnauthRoleName": "amplify-techzilla-dev-75130-unauthRole",
+      "StackName": "amplify-techzilla-dev-75130",
+      "StackId": "arn:aws:cloudformation:us-east-1:334919003911:stack/amplify-techzilla-dev-75130/bcf293e0-aff3-11eb-bd43-12a9cf5d803b",
+      "AmplifyAppId": "d1qhnw5x5l102r"
+    },
+    "categories": {
+      "auth": {
+        "techzilla6ae6c328": {}
+      }
+    }
+  }
+}

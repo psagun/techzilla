@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "techzilla6ae6c328": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
