@@ -1,31 +1,31 @@
-
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import './App.css';
-import Home from './components/homepage/Home';
-import Products from './components/homepage/Products';
-import Navbar from './components/Navbar'
-import Login from '../src/components/LoginSignUpPage/login.component'
-import SignUp from '../src/components/LoginSignUpPage/signup.component'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React, { useState } from 'react';
+import QuestionLists from './components/QuestionLists';
+import { useMutation, queryCache } from 'react-query';
+import {
+  Box,
+  Button,
+  Flex,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+  useDisclosure,
+  FormControl,
+  FormLabel,
+  Input,
+  Textarea,
+} from '@chakra-ui/core';
+import Axios from 'axios';
 
 function App() {
+  
   return (
-    
-    
-        <Router>
-        <div className="App">
-        <Navbar/>
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/signup' exact component={SignUp} />
-          <Route path='/login' exact component={Login} />
-          <Route path='/products' component={Products} />
-
-        </Switch>
-        </div>
-      </Router>
-     
-    
+    <div>
+      Hello
+    </div>
   );
 }
 

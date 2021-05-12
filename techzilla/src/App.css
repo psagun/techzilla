@@ -1,7 +1,6 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+*{
+ 
+ 
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -16,6 +15,23 @@
 .products {
   padding: 4rem;
   background: #fff;
+}
+
+.Comment-item{
+  background: #eef0f5;
+  border: 1px solid #d0d6ee;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 15px 0px 15px;
+  max-width: 900px;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 12px 35px -13px rgba(65,70,120,1);
+  -moz-box-shadow: 2px 12px 35px -13px rgba(65,70,120,1);
+  box-shadow: 2px 12px 35px -13px rgba(65,70,120,1);
+}
+.Comment-item__author{
+  font-weight: bold;
+  font-size: 0.8rem;
 }
 
 .products__container {

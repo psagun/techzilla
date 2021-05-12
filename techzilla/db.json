@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "body": "Sample",
+      "author": "typicode"
+    },
+    {
+      "title": "React Query",
+      "body": "This is a sample text for the question..check the comments for it",
+      "author": "Ganesh",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "body": "The comments are saved in a json file",
+      "postId": "1",
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

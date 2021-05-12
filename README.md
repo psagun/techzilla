@@ -10,8 +10,25 @@
 ### Requirements
 Download and Install recommended LTS version of [Nodejs](https://nodejs.org/en/) 
 
-### Start
-Run `npm start`
+### Server Setup
+
+```
+npm install -g json-server
+```
+
+#### Start the JSON Server
+
+```
+json-server --watch db.json
+```
+
+### Client App Setup
+
+```
+npm install
+
+npm run start
+```
 
 
 

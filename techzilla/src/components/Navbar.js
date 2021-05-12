@@ -1,8 +1,8 @@
-import {React, useState} from 'react'
+import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import './Navbar.css';
- 
+import cartIcon from './shopping-cart-solid.svg'
 //context API allows you to pass in properties \
 
 
@@ -47,7 +47,25 @@ function Navbar() {
                     SignUp
                 </Link>
              </li>
+             <li className="nav-item">
+                <Link 
+                to='/forum' 
+                className="nav-links"
+                onClick={closeMobileMenu}>
               
+                    Forum
+                </Link>
+             </li>
+              <li >
+            
+            <Link to='/'>
+                <div className="nav-cart">
+                <span className="cart-span">0</span>    
+                <img src={cartIcon} width="25"/>
+                </div>
+            </Link>
+           
+              </li>
             </ul>
            </div>
        </div>
