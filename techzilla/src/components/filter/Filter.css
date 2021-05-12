@@ -1,27 +1,14 @@
-.filter-box {
-    color:rgb(0, 0, 0);
-    background-color:rgb(236, 243, 255);
-    width: 260px;
-    height: 650px;
-    padding-left: 20px;
-    border:  rgb(1, 7, 17);
-    margin: 5px;
-    font-size: 15px;
-    text-align: left;
-    position:-webkit-sticky;
-
-}
-.filter {
+.form1 {
     color:rgb(0, 0, 0);
     background-color:rgb(236, 243, 255);
     width: 200px;
-    height: 550px;
+    height: 700px;
     padding: 0px;
     border:  rgb(1, 7, 17);
-    margin: 5px;
+    margin: 0px;
     font-size: 15px;
-    text-align: left;
-    position:-webkit-sticky;
+    margin-top: 10px;
+    position:relative;
     
     
 
@@ -32,7 +19,7 @@
 
 .bar{
     width: 200px;   
-    border-radius: 1px;
+    border-radius: 50px;
     margin-top: 50px;
     padding-left: 20px;
     font-size: 20px;
