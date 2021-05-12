@@ -11,13 +11,54 @@
       "body": "This is a sample text for the question..check the comments for it",
       "author": "Ganesh",
       "id": 2
+    },
+    {
+      "title": "dasdsad",
+      "body": "sadsadsadsa",
+      "author": "Ganesh",
+      "id": 3
     }
   ],
   "comments": [
     {
-      "body": "The comments are saved in a json file",
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "body": "SDSSD",
       "postId": "1",
-      "id": 1
+      "id": 2
+    },
+    {
+      "body": "working?",
+      "postId": "1",
+      "id": 3
+    },
+    {
+      "body": "dsadsadsa",
+      "postId": "1",
+      "id": 4
+    },
+    {
+      "body": "rwe",
+      "postId": "1",
+      "id": 5
+    },
+    {
+      "body": "eqweqweqwe",
+      "postId": "3",
+      "id": 6
+    },
+    {
+      "body": "hello",
+      "postId": "1",
+      "id": 7
+    },
+    {
+      "body": "hi",
+      "postId": "1",
+      "id": 8
     }
   ],
   "profile": {

@@ -20,9 +20,9 @@ function Footer(){
                     </div>
                     <div className="footer-link-items">
                         <h2>CUSTOMER SERVICE</h2>
-                        <Link to='/'>Frequently Asked Questions</Link>
-                        <Link to='/'>Check Order Status</Link>
-                        <Link to='/'>Terms of Service</Link>
+                        <Link to='/FAQ'>Frequently Asked Questions</Link>
+                        <Link to='/OrderStatus'>Check Order Status</Link>
+                        <Link to='/TermsOfService'>Terms of Service</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>SOCIAL MEDIA</h2>

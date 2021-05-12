@@ -1,0 +1,20 @@
+.payment-page-container {
+  display:flex;
+  flex-direction: column;
+  min-height: 94vh;
+}
+
+.payment-container {
+  display: inline-block;
+  align-items: left;
+  width: 1000px;
+  margin: 0px auto;
+  padding-top: 25px;
+  border-bottom-style: solid;
+  border-width: thin;
+}
+
+.creditcards {
+  border-bottom-style: solid;
+  border-width: thin;
+}

@@ -28,8 +28,8 @@ const QuestionDetails = ({ history, match }) => {
           <Box>Error</Box>
         ) : (
           <Flex flexDirection="column" w="100%">
-            <Link to="/forum">
-              <Button>Discussion Forum</Button>
+            <Link to="/">
+              <Button>Home</Button>
             </Link>
             <Heading as="h5" margin="8px">
               {data.title}
