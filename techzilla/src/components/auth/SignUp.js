@@ -1,4 +1,5 @@
 import { React } from "react";
+import Buttons from "./Buttons";
 
 // import Avatar from "@material-ui/core/Avatar";
 // import Button from "@material-ui/core/Button";
@@ -48,6 +49,8 @@ const SignUp = (props) => {
 			<button onClick={props.signUp} style={styles.button}>
 				Sign Up
 			</button>
+
+			{/* <Buttons /> */}
 		</div>
 	);
 

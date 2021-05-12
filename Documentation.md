@@ -11,7 +11,13 @@
 - App built using:
 - Created with npm init react-app techZilla-->
 
+- npm install
 - npm start
-- npm run build
+<!-- - npm run build
 - npm test
-- npm run eject
+- npm run eject-->
+
+### To push a new changes: 
+- git add .
+- git commit -m "ADD A COMMIT MESSAGE HERE DESCRIBING YOUR CHANGES"
+- git push origin BRANCH_NAME

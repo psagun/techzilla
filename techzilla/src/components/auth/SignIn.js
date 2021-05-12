@@ -1,4 +1,5 @@
 import { React } from "react";
+import Buttons from "./Buttons";
 
 // import Avatar from "@material-ui/core/Avatar";
 // import Button from "@material-ui/core/Button";
@@ -15,6 +16,7 @@ import { React } from "react";
 // import Container from "@material-ui/core/Container";
 
 const SignIn = (props) => {
+	console.log("props SingIn.js: ", props);
 	return (
 		<div style={styles.container}>
 			<input
@@ -39,6 +41,8 @@ const SignIn = (props) => {
 			<button style={styles.button} onClick={props.signIn}>
 				Sign In
 			</button>
+
+			{/* <Buttons /> */}
 		</div>
 	);
 	// const useStyles = makeStyles((theme) => ({

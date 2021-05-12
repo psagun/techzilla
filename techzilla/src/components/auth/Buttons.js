@@ -4,6 +4,7 @@ import { Auth } from "aws-amplify";
 import { FaFacebook, FaGoogle, FaEnvelope } from "react-icons/fa";
 
 function Buttons(props) {
+	console.log("this.props.children: Buttons.js", props);
 	return (
 		<div>
 			<div style={styles.container}>
@@ -15,10 +16,10 @@ function Buttons(props) {
 					<FaGoogle color="red" />
 					<p style={{ ...styles.text, ...styles.grayText }}>Sign in with Google</p>
 				</button>
-				<button style={{ ...styles.button, ...styles.email }} onClick={() => props.updateFormState("email")}>
+				{/* <button style={{ ...styles.button, ...styles.email }} onClick={() => props.updateFormState("email")}>
 					<FaEnvelope color="white" />
-					<p style={{ ...styles.text }}>Sign in with Email</p>
-				</button>
+					<p style={{ ...styles.text }}>Continue with Email</p>
+				</button> */}
 			</div>
 		</div>
 	);

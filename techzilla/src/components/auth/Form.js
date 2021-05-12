@@ -80,6 +80,8 @@ const ConfirmSignUp = (props) => {
 export default function Form() {
 	const [formType, updateFormType] = useState("signUp");
 	const [formState, updateFormState] = useReducer(reducer, initialFormState);
+	// const [formState, updateFormState] = useReducer(reducer, initialFormState);
+
 	function renderForm() {
 		switch (formType) {
 			case "signUp":
