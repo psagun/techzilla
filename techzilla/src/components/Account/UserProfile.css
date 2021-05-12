@@ -1,0 +1,41 @@
+.profile-page-container {
+  display:flex;
+  flex-direction: column;
+  min-height: 94vh;
+}
+
+.profile-container {
+  display: inline-block;
+  align-items: left;
+  width: 1000px;
+  margin: 0px auto;
+  padding-top: 25px;
+  border-bottom-style: solid;
+  border-width: thin;
+}
+
+.information-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: solid;
+  border-width: thin;
+  padding: 20px;
+}
+
+.address >h6 {
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.city {
+  padding-inline: 5px;
+}
+
+.state {
+  padding-inline: 5px;
+}
+
+.zip-code {
+  padding-inline: 5px;
+}

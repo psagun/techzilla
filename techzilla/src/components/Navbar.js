@@ -2,6 +2,8 @@ import {React, useState} from 'react'
 import {Link} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import './Navbar.css';
+import Cartlength from './Cartlength';
+import Logo from './assets/images/logo.JPG'
  
 //context API allows you to pass in properties \
 
@@ -22,12 +24,24 @@ function Navbar() {
              to='/' 
              className="navbar-logo" 
              onClick={closeMobileMenu}>
-                techZilla
+                <img src={Logo} alt="" width="22"/>
             </Link> 
             <div className="menu-icon" onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars/>}
             </div>
             <ul className={click ? 'nav-menu active': 'nav-menu'}>
+                <Cartlength/>
+             <li className="nav-item">
+                
+                <Link 
+                to='/Account' 
+                className="nav-links" 
+                onClick={closeMobileMenu}>
+              
+                   Account
+                </Link>
+             </li>
+                
              <li className="nav-item">
                 
                 <Link 
