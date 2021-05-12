@@ -5,12 +5,13 @@ import HeroSection from '../HeroSection';
 import Footer from '../footer/Footer';
 
 
+
 function Home() {
   return (
     <>
       <HeroSection />
       <Cards />
-      <Footer/>
+      <Footer/>   
     </>
   );
 }

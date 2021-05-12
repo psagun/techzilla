@@ -1,56 +1,48 @@
-import React from 'react';
-import '../../App.css';
-import ProductItem from '../products/ProductItem';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import { DataContext } from '../Context'
+import '../products/Products.css';
+import Filter from '../searchfilter/Filter';
+// import ProductItem from '../products/ProductItem';
 
-function Products() {
-  return (
-    <div className='products'>
-      <div className='products__container'>
-        <div className='products__wrapper'>
-          <ul className='products__items'>
-            <ProductItem
-              src='images/fav3.jpg'
-              text='Explore our latest MacBook with different color and sizes'
-              label='$1299.99'
-              button= 'Add to cart'
-            />
-            <ProductItem
-              src='images/img-2.jpg'
-              text='Explore our latest Windows PCs. with different color and sizes'
-              label='$699.99'
-              button= 'Add to cart'
-            />
-            <ProductItem
-              src='images/fav3.jpg'
-              text='Explore our latest HP Laptops with different color and sizes'
-              label='$899.99'
-              button= 'Add to cart'
-            />
-          </ul>
-          <ul className='products__items'>
-            <ProductItem
-              src='images/fav3.jpg'
-              text='Explore our latest Surface Pro with different color and sizes'
-              label='$899.99'
-              button= 'Add to carts'
-            />
-            <ProductItem
-              src='images/img-1.jpg'
-              text='Explore new accessories and hardware products'
-              label='$899.99'
-              button= 'Add to cart'
-            />
-            <ProductItem
-              src='images/fav3.jpg'
-              text='Explore our latest Laptops with intel core processor i15'
-              label='$899.99'
-              button= 'Add to carts'
-            />
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
+
+export class Products extends Component {
+    static contextType = DataContext;
+
+    render() {
+        const { products, addCart } = this.context;
+        return (
+            <div className="product">
+                <Filter/>
+                <div className='product__container'>
+                    {
+                        products.map(product => (
+                            <div className="card" key={product._id}>
+                                <Link to={`/product/${product._id}`}>
+                                    <figure className='cards__item__pic-wrap' data-category={product.price}>
+                                        <img
+                                            className='cards__item__img'
+                                            alt='Computer Image'
+                                            src={product.src}
+                                        />
+                                    </figure>
+                                    {/* <img src={product.src} alt="" /> */}
+                                </Link>
+                                <div className="content">
+                                    <h3>
+                                        <Link to={`/product/${product._id}`}>{product.title}</Link>
+                                    </h3>
+                                    <span>${product.price}</span>
+                                    <p>{product.description}</p>
+                                    <button onClick={() => addCart(product._id)}>Add to cart</button>
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+        )
+    }
 }
 
-export default Products;
+export default Products

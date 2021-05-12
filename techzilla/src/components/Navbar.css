@@ -1,6 +1,6 @@
 .navbar {
     background: #000000;
-    height: 80px;
+    height: 68px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
   .navbar-container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 68px;
   }
   .nav-cart{
       position: absolute;
@@ -62,7 +62,23 @@
     text-align: center;
     justify-content: end;
   }
-  
+
+  .nav-cart{
+    cursor: pointer;
+    position: relative;
+}
+  .nav-cart span{
+    position: absolute;
+    top:-12px;
+    right: -7px;
+    background: crimson;
+    font-size: 10px;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 50%;
+    z-index: -1;
+  }
+    
   .nav-item {
     height: 80px;
     border-bottom: 2px solid transparent;

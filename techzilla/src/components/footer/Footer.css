@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
 }
 
 .footer-start {
@@ -13,6 +14,7 @@
     font-size: 2ex;
     text-align: left;
     justify-content: left;
+    
     }
 
 .footer-links {
@@ -21,6 +23,7 @@
     display: flex;
     justify-content: center;
     color:#fff;
+    
 }
 
 .footer-link-wrapper {
@@ -72,5 +75,6 @@
 }
 
 .website-copyright {
-    color: #fff;
+    margin-bottom: 20px;
+    color: rgb(155, 155, 155);
 }
