@@ -70,15 +70,3 @@ video {
     width: 100%;
   }
 }
-
-.bar{
-  width:50%;
-  position:relative;
-}
-.bar input[type="text"]{
-  width:100%;
-  padding:10px;
-  background-color: rgba(255, 244, 244, 0.6);
-  color:rgba(255, 244, 244, 0.6);
-  border-radius: 50px;
-}

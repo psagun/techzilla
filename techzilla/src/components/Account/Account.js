@@ -21,7 +21,7 @@ function Account() {
               </address>
               <div className='forum'>
                 <h5><br/>View Forum Posts</h5>
-                <Link className='forum-link'to='/forumposts'>
+                <Link className='forum-link'to='/forum'>
                   <img classname='forum-picture' src ='logo1.png' alt =''/>
                 </Link>
               </div>

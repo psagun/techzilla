@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "title": "Our Computers are the best quality and fully guaranted.",
+      "body": "If you have any concerns, you can reach out to us.",
+      "author": "Luigi",
+      "id": 1
+    },
+    {
+      "title": "Our Computers are the best quality and fully guaranted.",
+      "body": "If you have any concerns, you can reach out to us.",
+      "author": "Sagun",
+      "id": 2
+    },
+    {
+      "title": "Our Computers are the best quality and fully guaranted.",
+      "body": "If you have any concerns, you can reach out to us.",
+      "author": "Kenneth",
+      "id": 3
+    },
+    {
+      "title": "Our Computers are the best quality and fully guaranted.",
+      "body": "If you have any concerns, you can reach out to us.",
+      "author": "Hodgson",
+      "id": 1
+    },
+    {
+      "title": "Our Computers are the best quality and fully guaranted.",
+      "body": "If you have any concerns, you can reach out to us.",
+      "author": "Amadou",
+      "id": 1
+    }
+
+  ],
+  "comments": [
+    {
+      "body": "Hey It's me Sagun.  Your products are awesome.",
+      "postId": "1",
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
