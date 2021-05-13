@@ -5,39 +5,6 @@ import "../products/Products.css";
 import Filter from "../searchfilter/Filter";
 // import ProductItem from '../products/ProductItem';
 
-<<<<<<< HEAD
-export class Products extends Component {
-	static contextType = DataContext;
-
-	render() {
-		const { products, addCart } = this.context;
-		return (
-			<div>
-				<Filter />
-				<div className="product">
-					{products.map((product) => (
-						<div className="card" key={product._id}>
-							<Link to={`/product/${product._id}`}>
-								<figure className="cards__item__pic-wrap" data-category={product.price}>
-									<img className="cards__item__img" alt="Computer Image" src={product.src} />
-								</figure>
-								{/* <img src={product.src} alt="" /> */}
-							</Link>
-							<div className="content">
-								<h3>
-									<Link to={`/product/${product._id}`}>{product.title}</Link>
-								</h3>
-								<span>${product.price}</span>
-								<p>{product.description}</p>
-								<button onClick={() => addCart(product._id)}>Add to cart</button>
-							</div>
-						</div>
-					))}
-				</div>
-			</div>
-		);
-	}
-=======
 
 export class Products extends Component {
     static contextType = DataContext;
@@ -76,7 +43,6 @@ export class Products extends Component {
             </div>
         )
     }
->>>>>>> dev
 }
 
 export default Products;
