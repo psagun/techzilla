@@ -74,7 +74,7 @@ const Main = () => {
 			{userState.user && userState.user.signInUserSession ? (
 				<div style={{}} className="Main">
 					{/* <h4>Welcome, {userState.user.signInUserSession.idToken.payload.email}</h4> */}
-					<button style={{ ...styles.button, ...styles.signOut, float: "right", position: "sticky", top: 0, marginTop: 10 }} onClick={signOut}>
+					<button style={{ ...styles.button, ...styles.signOut, float: "right", position: "sticky", top: 0, marginTop: 0 }} onClick={signOut}>
 						<FaSignOutAlt color="white" />
 						<p style={{ ...styles.text }}>Sign Out</p>
 					</button>
@@ -153,34 +153,40 @@ const signOut = () => {
 
 const styles = {
 	appContainer: {
-		paddingTop: 85,
+		background: "#000000",
+		height: "68px",
+		display: "flex",
+		justifycontent: "center",
+		alignitems: "center",
+		fontsize: "1.2rem",
+		position: "sticky",
+		top: 0,
+		zindex: 999,
 	},
 	loading: {},
 	button: {
-		marginTop: 15,
-		// width: "30%",
 		maxWidth: 200,
-		marginBottom: 10,
+		marginBottom: 0,
 		display: "flex",
 		justifyContent: "flex-start",
 		alignItems: "center",
 		padding: "0px 16px",
-		borderRadius: 2,
+		borderRadius: 0,
 		boxShadow: "0px 1px 3px rgba(0, 0, 0, .3)",
 		cursor: "pointer",
 		outline: "none",
 		border: "none",
-		minHeight: 40,
+		minHeight: 68,
 	},
 	text: {
 		color: "white",
 		fontSize: 14,
-		marginLeft: 10,
+		marginRight: 40,
 		fontWeight: "bold",
 		marginBottom: -1,
 	},
 	signOut: {
-		backgroundColor: "#8b0000",
+		backgroundColor: "#000000",
 	},
 	footer: {
 		fontWeight: "600",
