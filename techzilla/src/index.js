@@ -7,7 +7,11 @@ import * as serviceWorker from './serviceWorker';
 import { ThemeProvider } from '@chakra-ui/core';
 import theme from './theme';
 import './App.css';
+//Amplify
+import Amplify from "aws-amplify";
+import config from "./aws-exports";
 
+Amplify.configure(config);
 ReactDOM.render(
     <ThemeProvider theme={theme}>
       <App />

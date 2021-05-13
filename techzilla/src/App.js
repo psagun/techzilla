@@ -1,5 +1,7 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import React from 'react';
+import "./App.css";
+import Main from "./components/Main";
 import AddQuestion from './components/AddQuestion';
 import QuestionDetails from './components/QuestionDetails';
 import Home from './components/homepage/Home';
@@ -19,11 +21,7 @@ import { DataProvider } from './components/Context'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams,
-} from 'react-router-dom';
+  Route} from 'react-router-dom';
 import Forum from './components/Forum';
 
 export default function App() {
@@ -36,6 +34,7 @@ export default function App() {
       <Route path='/' exact component={Home} />
         <Route exact path="/forum">
           <Forum/>
+          <Main />
         </Route>
         <Route path="/add">
           <AddQuestion />

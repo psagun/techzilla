@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import { DataContext } from '../Context'
-import '../products/Products.css';
-import Filter from '../searchfilter/Filter';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { DataContext } from "../Context";
+import "../products/Products.css";
+import Filter from "../searchfilter/Filter";
 
 
 export class Products extends Component {
@@ -45,4 +45,4 @@ export class Products extends Component {
     }
 }
 
-export default Products
+export default Products;
