@@ -8,7 +8,7 @@ function HeroSection() {
 			<video src="video-2.mp4" autoPlay loop muted />
 			<h1>Welcome to TechZilla</h1>
 			<p>Your Trusted Online Computer World</p>
-			<input style={{ width: "250px", height: "35px" }} type="text" placeholder="search"></input>
+			<div className="bar"></div>
 		</div>
 	);
 }
