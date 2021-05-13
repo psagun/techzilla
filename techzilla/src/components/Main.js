@@ -1,9 +1,7 @@
 import React, { useReducer, useEffect, useState } from "react";
 import Buttons from "./auth/Buttons";
-// import Form from "./auth/Form";
 import { Hub, Auth } from "aws-amplify";
 import { FaSignOutAlt } from "react-icons/fa";
-// import "../../App.css";
 
 //-----------------------------
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -89,7 +87,7 @@ const Main = () => {
 									<Route path="/products" component={Products} exact />
 									<Route path="/product/:id" exact component={Details} />
 									<Route path="/cart" component={Cart} />
-									<Route path="/account" exact component={Account} />
+									<Route path="/account" exact component={() => <Account user={userState.user} />} />
 									<Route path="/Account/UserProfile" exact component={UserProfile} />
 									<Route path="/Account/OrderHistory" exact component={OrderHistory} />
 									<Route path="/Account/PaymentMethods" exact component={PaymentMethods} />

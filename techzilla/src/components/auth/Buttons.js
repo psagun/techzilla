@@ -2,12 +2,16 @@ import React from "react";
 import "../../App.css";
 import { Auth } from "aws-amplify";
 import { FaFacebook, FaGoogle, FaEnvelope } from "react-icons/fa";
+import Footer from "../footer/Footer";
+import SignIn from "./SignIn";
+import Form from "./Form";
 
 function Buttons(props) {
 	console.log("this.props.children: Buttons.js", props);
 	return (
 		<div>
 			<div style={styles.container}>
+				{/* <Form /> */}
 				<button style={{ ...styles.button, ...styles.facebook }} onClick={() => Auth.federatedSignIn({ provider: "Facebook" })}>
 					<FaFacebook color="white" />
 					<p style={styles.text}>Sign in with Facebook</p>
@@ -21,6 +25,7 @@ function Buttons(props) {
 					<p style={{ ...styles.text }}>Continue with Email</p>
 				</button> */}
 			</div>
+			<Footer />
 		</div>
 	);
 }

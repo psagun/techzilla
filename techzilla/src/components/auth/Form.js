@@ -2,6 +2,7 @@ import React, { useState, useReducer } from "react";
 import SignUp from "./SignUp";
 import SignIn from "./SignIn";
 import { Auth } from "aws-amplify";
+import ConfirmSignUp from "./ConfirmSignUp";
 
 const initialFormState = {
 	username: "",
@@ -56,25 +57,6 @@ const signIn = async ({ username, password }) => {
 		console.log("error signing up..", err);
 		alert("Incorrect username or password");
 	}
-};
-
-const ConfirmSignUp = (props) => {
-	return (
-		<div style={styles.container}>
-			<input
-				name="confirmationCode"
-				placeholder="Confirmation Code"
-				onChange={(e) => {
-					e.persist();
-					props.updateFormState(e);
-				}}
-				style={styles.input}
-			/>
-			<button onClick={props.confirmSignUp} style={styles.button}>
-				Confirm Sign Up
-			</button>
-		</div>
-	);
 };
 
 export default function Form() {
