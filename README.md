@@ -28,7 +28,7 @@ Run `npm start`
 
 <img width="1917" alt="Screen Shot 2021-05-14 at 4 08 01 AM" src="https://user-images.githubusercontent.com/26178832/118242238-1b73b400-b46b-11eb-86c9-02b6ff58a880.png">
 
-<img width="1917" alt="Screen Shot 2021-05-14 at 4 08 01 AM" src="https://user-images.githubusercontent.com/26178832/118242254-1f9fd180-b46b-11eb-8526-262fc4f26fa0.png">
+<img width="1917" alt="Screen Shot 2021-05-14 at 4 08 17 AM" src="https://user-images.githubusercontent.com/26178832/118242761-a9e83580-b46b-11eb-857f-1fe0b09cabf3.png">
 
 <img width="1917" alt="Screen Shot 2021-05-14 at 4 09 20 AM" src="https://user-images.githubusercontent.com/26178832/118242262-22022b80-b46b-11eb-90fe-bd9490aa140f.png">
 
