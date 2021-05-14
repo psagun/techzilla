@@ -26,3 +26,6 @@
 
 <img width="1917" alt="Screen Shot 2021-05-14 at 4 05 59 AM" src="https://user-images.githubusercontent.com/26178832/118241745-7f49ad00-b46a-11eb-8512-7970a04c63cf.png">
 
+<img width="1917" alt="Screen Shot 2021-05-14 at 4 07 14 AM" src="https://user-images.githubusercontent.com/26178832/118241900-ae601e80-b46a-11eb-89ed-2d54dedae82e.png">
+
+<img width="1917" alt="Screen Shot 2021-05-14 at 4 07 25 AM" src="https://user-images.githubusercontent.com/26178832/118241962-c3d54880-b46a-11eb-8433-40a105cf92f5.png">
